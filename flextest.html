@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+      .box{
+          display: flex;
+          justify-content: center;
+          /* align-items: center; */
+          margin: 20px;
+          flex-direction: row;
+          /* border: solid 1px black; */
+          width: 300px;
+          
+
+      }
+      body{
+          background-color: red;
+      }
+
+
+  </style>
+    <title>FLEX TEST</title>
+</head>
+<body>
+    <div style="display: flex;justify-content: center;align-items: center;margin-top: 100px;">
+    <div  class="box" >
+    <div style="width: 300px;height: 100px;background-color: darkgreen;">
+        <div style="align-content: flex-start;text-align: left;">
+            <p style="position: relative; bottom: 18px;">Child 1</p>
+        </div>
+    </div>
+    </div>
+    <div  class="box" >
+        <div style="width: 300px;height: 100px;background-color: darkgreen;">
+            <div>
+                <p style="position: relative; top: 25px;"  >Child 2</p>
+            </div>
+        </div>
+        </div>
+        <div class="box" >
+            <div style="width: 300px;height: 100px;background-color: darkgreen;">
+                <div>
+                    <p   style="position: relative; top: 68px; text-align: right; ">Child 3</p>
+                </div>
+            </div>
+            </div>
+   
+ 
+    </div>
+      
+        
+    
+</body>
+</html>
